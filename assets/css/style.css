@@ -67,7 +67,7 @@ text-decoration: none;
     text-align: center;
 
 
-    background: rgba(207,197,173,.5);
+    background: rgba(207,197,173,.3);
     height: 260px;
     width: 400px;
 
@@ -80,7 +80,7 @@ text-decoration: none;
     font-size: 2.2em;
     text-align: center;
 
-    background: rgba(207,197,173,.7);
+    background: rgba(207,197,173,.6);
     height: 260px;
     width: 400px;
 
@@ -92,7 +92,7 @@ text-decoration: none;
     font-size: 2.2em;
     text-align: center;
 
-    background: rgba(207,197,173,.5);
+    background: rgba(207,197,173,.4);
     height: 280px;
     width: 400px;
 
@@ -203,7 +203,7 @@ transform: translateY(-50%)
 #carousel {
 	width: 4800px;
 	position: absolute;
-	top: 200px;
+	top: 185px;
 	bottom: 0;
 	height: 800px;
 	margin-left:0px;
@@ -249,7 +249,7 @@ transform: translateY(-50%)
     width: 80px;
     padding: 10px;
     left: 130px;
-    top: 53%;
+    top: 52%;
     margin-top: -30px;
     cursor: pointer;
     -webkit-transition: all 0.3s;
@@ -261,7 +261,7 @@ transform: translateY(-50%)
     width: 80px;
     padding: 10px;
     right: -20px;
-    top: 53%;
+    top: 52%;
     cursor: pointer;
     margin-top: -30px;
     -webkit-transition: all 0.3s;
@@ -285,7 +285,7 @@ transform: translateY(-50%)
 
 #viewmore{
 	position: absolute;
-	top:68.5%;
+	top:68.8%;
 	left:50%;
 
 	width: 120px;
@@ -318,16 +318,17 @@ transform: translateY(-50%)
 .info{
 	z-index: 3;
 	position: fixed;
-	width:645px;
-	height:350px;
+	width:635px;
+	height:360px;
 	top:380px;
-	left:42%;
+	left:41%;
 	right:8%;
 	font-size: 16px;
 	/*letter-spacing: 1.2px;*/
 	font-weight: 350;
 	/*font-family: 'Open Sans', sans-serif;*/
 	padding: 20px 20px 20px 20px;
+	/*overflow: scroll;*/
 
 	-webkit-transform: translateY(750px);
 	-webkit-transition: all 0.3s;
@@ -391,6 +392,8 @@ transform: translateY(-50%)
 	z-index: 3;
 	position: absolute;
 	top:20px;
+	left:0px;
+	right:0px;
 	margin-top: 30px;
 	margin-right: 15px;
 	margin-left: 15px;
@@ -405,6 +408,7 @@ transform: translateY(-50%)
   margin-bottom: 60px;
   margin-top: 50px;
   text-align: center;
+
 
 
 }

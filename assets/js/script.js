@@ -22,7 +22,7 @@ $(document).ready(function() {
 
         $(".box").toggleClass("box-change");
 
-        	$(this).css("background", "rgba(207,197,173,.85)");
+        	$(this).css("background", "rgba(207,197,173,.88)");
        		// $(this).css("font-weight","420");
 
         	

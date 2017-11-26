@@ -1,5 +1,4 @@
 body, html {
-	/*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	font-family: 'Libre Baskerville', serif;
 	margin: 0px;
 	height: 100%;
@@ -473,8 +472,8 @@ transform: translateY(-50%)
 	position: absolute;
 	top:50px;
 	left:100px;
-	right: 220px;
-	bottom: 200px;
+	right: 290px;
+	bottom: 80px;
 	padding: 30px 30px 30px 30px;
 	margin: 30px 30px 30px 39px;
 
@@ -488,18 +487,65 @@ transform: translateY(-50%)
 
 }
 
-.checkitem, .inputitem{
+.checkitem, .inputitem, .checkitem2,.sty {
 
 	/*cursor: pointer;*/
 	padding: 7px 7px 7px 7px;
 	margin: 7px 7px 7px 7px;
-
+	font-family:'Cinzel', serif;
+	/*font-weight: 600;*/
 }
+
+
+.sty:hover{
+	font-weight: bold;
+	opacity:.75;
+}
+
 
 .checkitem:hover{
 	/*font-style: italic;*/
 	/*text-decoration: underline;*/
+	font-weight: bold;
 	opacity:.75;
+	/*text-decoration: line-through;*/
+	/*cursor: pointer;*/
 }
+
+/*
+.checkitem2:hover{
+	font-weight: bold;
+	opacity:.75;
+}*/
+
+
+.check-active{
+	text-decoration: line-through #909090;
+
+}
+
+
+.inputitem, #frm1 {
+	display:inline-block; 
+}
+
+.inputitem:hover{
+	cursor: pointer;
+	opacity: .75;
+
+}
+
+.inputitem {
+	color:	#606060;
+}
+
+
+.forma {
+	height: 30px;
+	width: 150px;
+	opacity: .7;
+}
+
+
 
 
